@@ -8,7 +8,8 @@ const config: UserConfig = {
 			'@lib': path.resolve('./src/lib/'),
 			'@components': path.resolve('./src/components/'),
 			'@styles': path.resolve('./src/styles/'),
-			'@assets': path.resolve('./src/assets/')
+			'@assets': path.resolve('./src/assets/'),
+			'@utils': path.resolve('./src/utils/')
 		}
 	}
 };
