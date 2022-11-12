@@ -21,6 +21,7 @@
 		border-radius: 20px;
 		cursor: pointer;
 		color: var(--white);
+		text-transform: uppercase;
 		background-color: var(--primary);
 		transition: background-color 200ms ease;
 	}
@@ -31,5 +32,12 @@
 
 	button:hover {
 		background-color: var(--player-1);
+	}
+
+	/* Tablet */
+	@media (min-width: 768px) {
+		img {
+			width: 52px;
+		}
 	}
 </style>

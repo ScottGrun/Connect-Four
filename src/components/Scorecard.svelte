@@ -25,6 +25,7 @@
 		box-shadow: 0px 10px 0px var(--black);
 		border-radius: 20px;
 		margin-left: 11px;
+		text-transform: uppercase;
 	}
 
 	.score {
@@ -48,5 +49,34 @@
 		transform: scaleX(-1);
 		right: -27px !important;
 		left: auto;
+	}
+
+	/* Tablet */
+	@media (min-width: 768px) {
+		.score-card {
+			flex-flow: row;
+			gap: 42px;
+			width: 272px;
+			height: 100px;
+			margin-left: 17px;
+		}
+
+		h2 {
+			font-size: 1.25rem;
+			font-weight: 700;
+			line-height: 26px;
+			letter-spacing: 0px;
+		}
+
+		.score {
+			font-size: 3.5rem;
+			font-weight: 700;
+			line-height: 71px;
+			letter-spacing: 0px;
+		}
+
+		.flip-card {
+			flex-direction: row-reverse;
+		}
 	}
 </style>

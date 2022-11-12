@@ -58,6 +58,10 @@
 			gap: 20px;
 			padding: 18px;
 			padding-bottom: 80px;
+			grid-template-columns: repeat(7, 1fr);
+			gap: 20px;
+			padding: 16px;
+			padding-bottom: 65px;
 		}
 	}
 </style>

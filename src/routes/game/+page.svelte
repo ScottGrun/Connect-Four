@@ -52,4 +52,20 @@
 		border-radius: 60px 60px 0px 0px;
 		z-index: -1;
 	}
+
+	/* Tablet */
+	@media (min-width: 768px) {
+		.container {
+			margin: 0 67px;
+			padding-top: 30px;
+		}
+
+		.scoreboard {
+			padding: 32px 0px;
+		}
+
+		:global(.timer) {
+			margin-top: -50px;
+		}
+	}
 </style>
