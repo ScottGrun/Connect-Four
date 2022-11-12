@@ -8,10 +8,13 @@
 	--white: #ffffff;
 }
 
-
 body {
 	font-family: 'Space GroteskVariable', sans-serif;
 	background-color: var(--primary-light) !important;
+}
+
+#root {
+	height: 100%;
 }
 
 /* Typography */
