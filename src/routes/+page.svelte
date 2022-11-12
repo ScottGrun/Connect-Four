@@ -12,7 +12,7 @@
 				PLAY VS PLAYER
 				<img src={playerVsPlayerSrc} alt="" class="pvp-logo" />
 			</Button>
-			<Button asLink={true} href="/game-rules" variant="white">GAME RULES</Button>
+			<Button asLink={true} href="/rules" variant="white">GAME RULES</Button>
 		</div>
 	</div>
 </div>
